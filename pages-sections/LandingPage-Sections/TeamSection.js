@@ -46,7 +46,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  LaSalle University, Ozamiz City IT Administrator and Tech Savvy Community Leader.
+                  LaSalle University, Ozamiz City IT Administrator & Tech Savvy Community Leader. Contact here via LinkedIn or Facebook
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -54,20 +54,17 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.linkedin.com/in/jo-renlee-luna-2b6ab5157/"
+                  target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
+                  <i className={classes.socials + " fab fa-linkedin"} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-instagram"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
+                  href="https://www.facebook.com/jorenlee.luna"
+                  target="_blank"
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
                 </Button>
@@ -84,16 +81,14 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Jan Tigley
                 <br />
-                <small className={classes.smallTitle}>Designer</small>
+                <small className={classes.smallTitle}>Front Desk {"("}Alcon Enterprises{")"}</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  A young and vibrant professional that excels in customer service and  
+                  administrative tasks. Contact her through instagram of facebook.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -101,15 +96,19 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.instagram.com/jst9728/"
+                  target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-twitter"} />
+                  <i className={classes.socials + " fab fa-instagram"} />
                 </Button>
                 <Button
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.facebook.com/tigleyjan"
+                  target="_blank"
                 >
-                  <i className={classes.socials + " fab fa-linkedin"} />
+                  <i className={classes.socials + " fab fa-facebook"} />
                 </Button>
               </CardFooter>
             </Card>
@@ -124,16 +123,14 @@ export default function TeamSection() {
                 />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Kent Stephen Toledo
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Virtual Assistant</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  A very workaholic and organized person that is proficient in 
+                  graphic design and digital art. Reach them out through Facebook or Instagram
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -141,13 +138,8 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
-                >
-                  <i className={classes.socials + " fab fa-twitter"} />
-                </Button>
-                <Button
-                  justIcon
-                  color="transparent"
-                  className={classes.margin5}
+                  href="https://www.instagram.com/lordkentooo/"
+                  target="_blank"
                 >
                   <i className={classes.socials + " fab fa-instagram"} />
                 </Button>
@@ -155,6 +147,8 @@ export default function TeamSection() {
                   justIcon
                   color="transparent"
                   className={classes.margin5}
+                  href="https://www.facebook.com/kentstephent"
+                  target="_blank"
                 >
                   <i className={classes.socials + " fab fa-facebook"} />
                 </Button>

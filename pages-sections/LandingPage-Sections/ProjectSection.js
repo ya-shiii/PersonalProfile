@@ -69,7 +69,7 @@ export default function ProductSection(props) {
 
                         <Card style={{ width: "85%" }}>
                           <img
-                            style={{ height: "300px", width: "100%", display: "block" }}
+                            style={{ height: "20rem", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
                             src="img/examples/buscaolas.png"
                             alt="buscaolas_img"
