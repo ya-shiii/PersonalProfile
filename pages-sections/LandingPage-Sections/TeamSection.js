@@ -46,7 +46,7 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  LaSalle University, Ozamiz City IT Administrator and Tech Savvy Community Leader
+                  LaSalle University, Ozamiz City IT Administrator and Tech Savvy Community Leader.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
