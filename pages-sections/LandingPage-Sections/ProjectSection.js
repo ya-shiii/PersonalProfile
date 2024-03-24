@@ -71,7 +71,7 @@ export default function ProductSection(props) {
                           <img
                             style={{ height: "300px", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
-                            src="/img/examples/buscaolas.png"
+                            src="img/examples/buscaolas.png"
                             alt="buscaolas_img"
                           />
                           <CardBody>
@@ -95,7 +95,7 @@ export default function ProductSection(props) {
                           <img
                             style={{ height: "22rem", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
-                            src="/img/examples/kokorofoods.png"
+                            src="img/examples/kokorofoods.png"
                             alt="kokoro_foods_img"
                           />
                           <CardBody>
@@ -126,7 +126,7 @@ export default function ProductSection(props) {
                           <img
                             style={{ height: "12rem", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
-                            src="/img/examples/lunatronix.png"
+                            src="img/examples/lunatronix.png"
                             alt="lunatronix_img"
                           />
                           <CardBody>
@@ -146,7 +146,7 @@ export default function ProductSection(props) {
                           <img
                             style={{ height: "12rem", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
-                            src="/img/examples/thecompass.png"
+                            src="img/examples/thecompass.png"
                             alt="kokoro_foods_img"
                           />
                           <CardBody>
@@ -166,7 +166,7 @@ export default function ProductSection(props) {
                           <img
                             style={{ height: "12rem", width: "100%", display: "block" }}
                             className={cardclassed.imgCardTop}
-                            src="/img/examples/techsavvy.png"
+                            src="img/examples/techsavvy.png"
                             alt="kokoro_foods_img"
                           />
                           <CardBody>
@@ -192,66 +192,66 @@ export default function ProductSection(props) {
                       <GridItem xs={12} sm={12} md={3}>
                         <img
                           alt="..."
-                          src="/img/collection/2.jpg"
+                          src="img/collection/2.jpg"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/T-Savvy_Logo.png"
+                          src="img/collection/T-Savvy_Logo.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/PSITS_Officer.png"
+                          src="img/collection/PSITS_Officer.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/tatts.png"
-                          className={navImageClasses}
-                        />
-                      </GridItem>
-                      <GridItem xs={12} sm={12} md={3}>
-                        <img
-                          alt="..."
-                          src="/img/collection/CodeCampOrgShirt.png"
-                          className={navImageClasses}
-                        />
-                        <img
-                          alt="..."
-                          src="/img/collection/debut_letter.png"
-                          className={navImageClasses}
-                        />
-                        <img
-                          alt="..."
-                          src="/img/collection/Jersey_Commission.png"
-                          className={navImageClasses}
-                        />
-                        <img
-                          alt="..."
-                          src="/img/collection/tarp.png"
+                          src="img/collection/tatts.png"
                           className={navImageClasses}
                         />
                       </GridItem>
                       <GridItem xs={12} sm={12} md={3}>
                         <img
                           alt="..."
-                          src="/img/collection/id_sample.jpg"
+                          src="img/collection/CodeCampOrgShirt.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/PSITS.png"
+                          src="img/collection/debut_letter.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/Sierra_Logo.png"
+                          src="img/collection/Jersey_Commission.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/MULISS_Member.png"
+                          src="img/collection/tarp.png"
+                          className={navImageClasses}
+                        />
+                      </GridItem>
+                      <GridItem xs={12} sm={12} md={3}>
+                        <img
+                          alt="..."
+                          src="img/collection/id_sample.jpg"
+                          className={navImageClasses}
+                        />
+                        <img
+                          alt="..."
+                          src="img/collection/PSITS.png"
+                          className={navImageClasses}
+                        />
+                        <img
+                          alt="..."
+                          src="img/collection/Sierra_Logo.png"
+                          className={navImageClasses}
+                        />
+                        <img
+                          alt="..."
+                          src="img/collection/MULISS_Member.png"
                           className={navImageClasses}
                         />
                         
@@ -259,32 +259,32 @@ export default function ProductSection(props) {
                       <GridItem xs={12} sm={12} md={3}>
                         <img
                           alt="..."
-                          src="/img/collection/DartCCS2023.png"
+                          src="img/collection/DartCCS2023.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/luminaire.png"
+                          src="img/collection/luminaire.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/Loujing.png"
+                          src="img/collection/Loujing.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/Tarp1.png"
+                          src="img/collection/Tarp1.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/CCS_Banner.png"
+                          src="img/collection/CCS_Banner.png"
                           className={navImageClasses}
                         />
                         <img
                           alt="..."
-                          src="/img/collection/ICT_Week.png"
+                          src="img/collection/ICT_Week.png"
                           className={navImageClasses}
                         />
                       </GridItem>
