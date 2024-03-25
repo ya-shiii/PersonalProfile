@@ -49,6 +49,8 @@ export default function ProductSection(props) {
               These are my past works – a collection that embodies my creativity and showcasing the diverse range of projects I've done.
               Each piece is a testament to my dedication to the craft and my commitment to delivering impactful design solutions.
             </h5>
+            <br />
+            <h6 className={classes.description}><i>I use Figma, Adobe Photoshop, Adobe Illustrator, CorelDraw and Adobe InDesign.</i></h6>
           </div>
 
         </GridItem>
