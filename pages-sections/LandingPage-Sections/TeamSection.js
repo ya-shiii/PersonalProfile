@@ -88,7 +88,7 @@ export default function TeamSection() {
               <CardBody>
                 <p className={classes.description}>
                   A young and vibrant professional that excels in customer service and  
-                  administrative tasks. Contact her through instagram of facebook.
+                  administrative tasks. Contact her through instagram or facebook.
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
