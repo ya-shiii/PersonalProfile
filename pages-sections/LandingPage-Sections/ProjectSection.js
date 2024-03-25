@@ -207,7 +207,7 @@ export default function ProductSection(props) {
                         />
                         <img
                           alt="..."
-                          src="img/collection/tatts.png"
+                          src="img/collection/Tatts.png"
                           className={navImageClasses}
                         />
                       </GridItem>
@@ -229,7 +229,7 @@ export default function ProductSection(props) {
                         />
                         <img
                           alt="..."
-                          src="img/collection/tarp.png"
+                          src="img/collection/Tarp.png"
                           className={navImageClasses}
                         />
                       </GridItem>
@@ -274,7 +274,7 @@ export default function ProductSection(props) {
                         />
                         <img
                           alt="..."
-                          src="img/collection/Tarp1.png"
+                          src="img/collection/tarp1.png"
                           className={navImageClasses}
                         />
                         <img
