@@ -174,7 +174,7 @@ export default function ProductSection(props) {
                           <CardBody>
                             <h4 className={cardclassed.cardTitle}>Tech Savvy Code Camp</h4>
                             <p style={{ height: "8rem" }}>While being one of the pioneering members of the uprising community,
-                              I was given the chance to present a proposal design for the lending page of our new and young community.</p>
+                              I was given the chance to present a proposal design for the landing page of our new and young community.</p>
                             <br />
                             <Button
                               href="https://www.figma.com/file/drywoxwKCb4FoYbYkfdIrt/Tech-Savvy-CodeCamp?type=design&mode=design&t=8cI50xYm9jgYykXK-0"
