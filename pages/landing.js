@@ -54,7 +54,7 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Joshua Vicente</h1>
-              <h3 className={classes.block}><i>Web Developer / Graphic Designer</i></h3>
+              <h3 className={classes.block}><i>Graphic Designer / Web Developer</i></h3>
               <br />
               <h4>
               Proficient in Graphics and Web Design, integrating front-end development skills with creative expertise 

@@ -63,131 +63,7 @@ export default function ProductSection(props) {
               color="info"
               tabs={[
                 {
-                  tabButton: "Contribution",
-                  tabIcon: Camera,
-                  tabContent: (
-                    <GridContainer justify="center">
-                      <GridItem xs={12} sm={12} md={6}>
-
-                        <Card style={{ width: "85%" }}>
-                          <img
-                            style={{ height: "20rem", width: "100%", display: "block" }}
-                            className={cardclassed.imgCardTop}
-                            src="img/examples/buscaolas.png"
-                            alt="buscaolas_img"
-                          />
-                          <CardBody>
-                            <h4 className={cardclassed.cardTitle}>Buscaolas</h4>
-                            <p>I'm proud to be one of the primary contributors
-                              to the front-end development of the Buscaolas
-                              website, bringing expertise and experience in NuxtJS 3 and TailwindCSS.</p>
-                            <br />
-                            <Quote text="Please disable adblocker extension when visiting site." />
-                            <Button
-                              href="https://buscaolas.cl/"
-                              target="_blank"
-                              color="info">Visit Site</Button>
-                          </CardBody>
-                        </Card>
-
-                      </GridItem>
-                      <GridItem xs={12} sm={12} md={6}>
-
-                        <Card style={{ width: "85%" }}>
-                          <img
-                            style={{ height: "22rem", width: "100%", display: "block" }}
-                            className={cardclassed.imgCardTop}
-                            src="img/examples/kokorofoods.png"
-                            alt="kokoro_foods_img"
-                          />
-                          <CardBody>
-                            <h4 className={cardclassed.cardTitle}>Kokoro Foods</h4>
-                            <p>As a leading force in Kokoro Foods' website front-end development,
-                              I've leveraged cutting-edge tools like TailwindCSS and spearheaded
-                              the migration to NuxtJS 3, seamlessly blending innovative design
-                              with optimal performance for an unparalleled user journey.</p>
-                            <br />
-                            <Button
-                              href="https://kokorofoods.cl/"
-                              target="_blank"
-                              color="warning">Visit Site</Button>
-                          </CardBody>
-                        </Card>
-
-                      </GridItem>
-                    </GridContainer>
-                  )
-                },
-                {
-                  tabButton: "Web Designs",
-                  tabIcon: ViewArrayOutlined,
-                  tabContent: (
-                    <GridContainer justify="center">
-                      <GridItem xs={12} sm={12} md={4}>
-                        <Card style={{ width: "100%" }}>
-                          <img
-                            style={{ height: "12rem", width: "100%", display: "block" }}
-                            className={cardclassed.imgCardTop}
-                            src="img/examples/lunatronix.png"
-                            alt="lunatronix_img"
-                          />
-                          <CardBody>
-                            <h4 className={cardclassed.cardTitle}>Lunatronix</h4>
-                            <p style={{ height: "8rem" }}>A static landing page for an start-up company based in Ontario, Canada. I was given the opportunity to present
-                              a single-page project proposal and they liked the service I provided.</p>
-                            <br />
-                            <Button
-                              href="https://www.figma.com/file/Q1PAobU6IkyD5aFIpT3O8q/Lunatronix?type=design&node-id=0-1&mode=design&t=GXkgKhVVcnqMqGKd-0"
-                              target="_blank"
-                              color="success">View in Figma</Button>
-                          </CardBody>
-                        </Card>
-                      </GridItem>
-                      <GridItem xs={12} sm={12} md={4}>
-                        <Card style={{ width: "100%" }}>
-                          <img
-                            style={{ height: "12rem", width: "100%", display: "block" }}
-                            className={cardclassed.imgCardTop}
-                            src="img/examples/thecompass.png"
-                            alt="kokoro_foods_img"
-                          />
-                          <CardBody>
-                            <h4 className={cardclassed.cardTitle}>The Compass</h4>
-                            <p style={{ height: "8rem" }}>A relatively new school that considered expanding into the online world.
-                              This project is still in its initial stages as client is yet to send the necessary information for their website.</p>
-                            <br />
-                            <Button
-                              href="https://www.figma.com/file/TOLb2EoACZ37XCIJCRLb7Y/The-Compass?type=design&mode=design&t=8cI50xYm9jgYykXK-0"
-                              target="_blank"
-                              color="success">View in Figma</Button>
-                          </CardBody>
-                        </Card>
-                      </GridItem>
-                      <GridItem xs={12} sm={12} md={4}>
-                        <Card style={{ width: "100%" }}>
-                          <img
-                            style={{ height: "12rem", width: "100%", display: "block" }}
-                            className={cardclassed.imgCardTop}
-                            src="img/examples/techsavvy.png"
-                            alt="kokoro_foods_img"
-                          />
-                          <CardBody>
-                            <h4 className={cardclassed.cardTitle}>Tech Savvy Code Camp</h4>
-                            <p style={{ height: "8rem" }}>While being one of the pioneering members of the uprising community,
-                              I was given the chance to present a proposal design for the landing page of our new and young community.</p>
-                            <br />
-                            <Button
-                              href="https://www.figma.com/file/drywoxwKCb4FoYbYkfdIrt/Tech-Savvy-CodeCamp?type=design&mode=design&t=8cI50xYm9jgYykXK-0"
-                              target="_blank"
-                              color="success">View in Figma</Button>
-                          </CardBody>
-                        </Card>
-                      </GridItem>
-                    </GridContainer>
-                  )
-                },
-                {
-                  tabButton: "Others",
+                  tabButton: "Graphic Designs",
                   tabIcon: ColorLensOutlined,
                   tabContent: (
                     <GridContainer justify="center">
@@ -289,6 +165,130 @@ export default function ProductSection(props) {
                           src="img/collection/ICT_Week.png"
                           className={navImageClasses}
                         />
+                      </GridItem>
+                    </GridContainer>
+                  )
+                },
+                {
+                  tabButton: "Web Designs",
+                  tabIcon: ViewArrayOutlined,
+                  tabContent: (
+                    <GridContainer justify="center">
+                      <GridItem xs={12} sm={12} md={4}>
+                        <Card style={{ width: "100%" }}>
+                          <img
+                            style={{ height: "12rem", width: "100%", display: "block" }}
+                            className={cardclassed.imgCardTop}
+                            src="img/examples/lunatronix.png"
+                            alt="lunatronix_img"
+                          />
+                          <CardBody>
+                            <h4 className={cardclassed.cardTitle}>Lunatronix</h4>
+                            <p style={{ height: "8rem" }}>A static landing page for an start-up company based in Ontario, Canada. I was given the opportunity to present
+                              a single-page project proposal and they liked the service I provided.</p>
+                            <br />
+                            <Button
+                              href="https://www.figma.com/file/Q1PAobU6IkyD5aFIpT3O8q/Lunatronix?type=design&node-id=0-1&mode=design&t=GXkgKhVVcnqMqGKd-0"
+                              target="_blank"
+                              color="success">View in Figma</Button>
+                          </CardBody>
+                        </Card>
+                      </GridItem>
+                      <GridItem xs={12} sm={12} md={4}>
+                        <Card style={{ width: "100%" }}>
+                          <img
+                            style={{ height: "12rem", width: "100%", display: "block" }}
+                            className={cardclassed.imgCardTop}
+                            src="img/examples/thecompass.png"
+                            alt="kokoro_foods_img"
+                          />
+                          <CardBody>
+                            <h4 className={cardclassed.cardTitle}>The Compass</h4>
+                            <p style={{ height: "8rem" }}>A relatively new school that considered expanding into the online world.
+                              This project is still in its initial stages as client is yet to send the necessary information for their website.</p>
+                            <br />
+                            <Button
+                              href="https://www.figma.com/file/TOLb2EoACZ37XCIJCRLb7Y/The-Compass?type=design&mode=design&t=8cI50xYm9jgYykXK-0"
+                              target="_blank"
+                              color="success">View in Figma</Button>
+                          </CardBody>
+                        </Card>
+                      </GridItem>
+                      <GridItem xs={12} sm={12} md={4}>
+                        <Card style={{ width: "100%" }}>
+                          <img
+                            style={{ height: "12rem", width: "100%", display: "block" }}
+                            className={cardclassed.imgCardTop}
+                            src="img/examples/techsavvy.png"
+                            alt="kokoro_foods_img"
+                          />
+                          <CardBody>
+                            <h4 className={cardclassed.cardTitle}>Tech Savvy Code Camp</h4>
+                            <p style={{ height: "8rem" }}>While being one of the pioneering members of the uprising community,
+                              I was given the chance to present a proposal design for the landing page of our new and young community.</p>
+                            <br />
+                            <Button
+                              href="https://www.figma.com/file/drywoxwKCb4FoYbYkfdIrt/Tech-Savvy-CodeCamp?type=design&mode=design&t=8cI50xYm9jgYykXK-0"
+                              target="_blank"
+                              color="success">View in Figma</Button>
+                          </CardBody>
+                        </Card>
+                      </GridItem>
+                    </GridContainer>
+                  )
+                },
+                {
+                  tabButton: "Web Development",
+                  tabIcon: Camera,
+                  tabContent: (
+                    <GridContainer justify="center">
+                      <GridItem xs={12} sm={12} md={6}>
+
+                        <Card style={{ width: "85%" }}>
+                          <img
+                            style={{ height: "20rem", width: "100%", display: "block" }}
+                            className={cardclassed.imgCardTop}
+                            src="img/examples/buscaolas.png"
+                            alt="buscaolas_img"
+                          />
+                          <CardBody>
+                            <h4 className={cardclassed.cardTitle}>Buscaolas</h4>
+                            <p>I'm proud to be one of the primary contributors
+                              to the front-end development of the Buscaolas
+                              website, bringing expertise and experience in NuxtJS 3 and TailwindCSS.</p>
+                            <br />
+                            <Quote text="Please disable adblocker extension when visiting site." />
+                            <Button
+                              href="https://buscaolas.cl/"
+                              target="_blank"
+                              color="info">Visit Site</Button>
+                          </CardBody>
+                        </Card>
+
+                      </GridItem>
+                      <GridItem xs={12} sm={12} md={6}>
+
+                        <Card style={{ width: "85%" }}>
+                          <img
+                            style={{ height: "22rem", width: "100%", display: "block" }}
+                            className={cardclassed.imgCardTop}
+                            src="img/examples/kokorofoods.png"
+                            alt="kokoro_foods_img"
+                          />
+                          <CardBody>
+                            <h4 className={cardclassed.cardTitle}>Kokoro Foods</h4>
+                            <p>As a leading force in Kokoro Foods' website front-end development,
+                              I've leveraged cutting-edge tools like TailwindCSS and spearheaded
+                              the migration to NuxtJS 3, seamlessly blending innovative design
+                              with optimal performance for an unparalleled user journey.</p>
+                            <br />
+                            <Button
+                              href="https://kokorofoods.cl/"
+                              target="_blank"
+                              color="warning">Visit Site</Button>
+                          </CardBody>
+                        </Card>
+
                       </GridItem>
                     </GridContainer>
                   )
