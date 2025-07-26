@@ -61,7 +61,7 @@ export default function Footer(props) {
           >
             Joshua Vicente
           </a>
-          {" "} using NextJS and React
+          {" "} using NextJS
         </div>
       </div>
     </footer>

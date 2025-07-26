@@ -54,12 +54,14 @@ export default function LandingPage(props) {
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Joshua Vicente</h1>
-              <h3 className={classes.block}><i>Graphic Designer / Web Developer</i></h3>
+              <h3 className={classes.block}><i>UI/UX Designer</i></h3>
               <br />
               <h4>
-              Proficient in Graphics and Web Design, integrating front-end development skills with creative expertise 
-              to deliver captivating digital experiences. With a solid foundation from internships and academic pursuits, 
-              I bring ideas into life.
+                Crafting intuitive interfaces and engaging digital experiences through 
+                a blend of creative design and front-end development. I transform ideas 
+                into visually compelling and functional solutions for businesses and communities.
+
+
               </h4>
               <br />
               <Button
@@ -68,7 +70,7 @@ export default function LandingPage(props) {
                 onClick={saveFile}
               >
                 <i className="fas fa-download" />
-                 Download CV
+                Download CV
               </Button>
             </GridItem>
           </GridContainer>

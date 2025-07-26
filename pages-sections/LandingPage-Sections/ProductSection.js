@@ -22,22 +22,25 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let's talk <i>quality</i></h2>
-          <h5 className={classes.description}>
-            Despite graduating in Information Technology from Misamis University with a GPA of 1.4,
-            my passion for design and art has thrived since 2012. Transitioning from an editorial
-            cartoonist to a school paper editor and graphic artist, I showcase my ability to excel
-            creatively, regardless of my academic background.
-          </h5>
+          <div className={classes.profile}>
+            <h2 className={classes.title}>Design Philosophy: Where Ideas Meet Action</h2>
+            <h5 className={classes.description}>
+              Every project I create is built on three principles: clarity, usability, and creativity.
+              My goal is to ensure each interface not only looks good but feels intuitive and aligns
+              with client objectives.
+            </h5>
+            <br />
+          </div>
+          <h2 className={classes.title}>Core Strengths</h2>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={3}>
+
             <InfoArea
               title="Collaboration"
-              description=" Willingness to communicate effectively with clients, colleagues, and stakeholders, 
-                actively seeking and incorporating feedback to refine designs and achieve optimal results."
+              description="Open communication and feedback-driven design process with teams and clients."
               icon={ChatBubbles}
               iconColor="info"
               vertical
@@ -46,7 +49,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={3}>
             <InfoArea
               title="Adaptibility"
-              description="Flexibility to embrace new trends, technologies, and client preferences, ensuring designs remain fresh and relevant."
+              description="Quick to embrace new trends and technologies to keep designs relevant."
               icon={DoneAllRounded}
               iconColor="success"
               vertical
@@ -55,7 +58,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={3}>
             <InfoArea
               title="Attention to Detail"
-              description="Meticulousness in refining every aspect of design, from layout and typography to color scheme and imagery, ensuring a polished final product."
+              description="Ensuring every element, from typography to layout, is cohesive and polished."
               icon={MyLocation}
               iconColor="warning"
               vertical
@@ -64,7 +67,7 @@ export default function ProductSection() {
           <GridItem xs={12} sm={12} md={3}>
             <InfoArea
               title="Creativity"
-              description="Ability to think outside the box, generating innovative solutions and unique concepts that captivate audiences and differentiate brands."
+              description="Delivering fresh, innovative solutions that captivate users and enhance brand identity."
               icon={IdeaBulb}
               iconColor="primary"
               vertical
